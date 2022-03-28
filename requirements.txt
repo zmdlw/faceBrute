@@ -1,0 +1,5 @@
+Mechanize==0.4.7
+Selenium==4.1.3
+CookieJar==0.0.1
+Simplejson==3.17.6
+optparse-pretty==0.1.1
