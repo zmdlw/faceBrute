@@ -2,7 +2,6 @@ import mechanize
 import cookiejar as cj
 
 
-# Browser Globals
 br = mechanize.Browser()
 cj = cj.LWPCookieJar()
 
@@ -10,7 +9,6 @@ cookieArray = []
 globalLogging = False
 br.set_cookiejar(cj)
 br.set_handle_robots(False)
-#br.set_handle_refresh(mechanize.HTTPRefreshProcessor(), max_time=1)
 br.set_handle_refresh(False)
 br.set_handle_redirect(True)
 br.set_handle_redirect(mechanize.HTTPRedirectHandler)
